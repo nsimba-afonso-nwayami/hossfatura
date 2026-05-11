@@ -8,6 +8,8 @@ import SiteLayout from "../layouts/SiteLayout";
 
 //Site
 import Home from "../pages/site/Home";
+import Funcionalidades from "../pages/site/Funcionalidades";
+import Planos from "../pages/site/Planos";
 import NotFound from "../pages/site/NotFound";
 
 //Autenticação
@@ -19,6 +21,8 @@ export default function AppRoutes() {
       {/*Rotas do site */}
       <Route element={<SiteLayout />}>
         <Route path="/" element={<Home />} />
+        <Route path="/funcionalidades" element={<Funcionalidades />} />
+        <Route path="/planos" element={<Planos />} />
         <Route path="*" element={<NotFound />} />
       </Route>
 
