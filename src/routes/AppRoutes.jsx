@@ -25,6 +25,8 @@ import ResetPassword from "../pages/auth/ResetPassword";
 
 //Dashboard
 import DashboardHossFatura from "../pages/dashboard/DashboardHossFatura";
+import DocumentosHossFatura from "../pages/dashboard/DocumentosHossFatura";
+import DespesasHossFatura from "../pages/dashboard/DespesasHossFatura";
 
 export default function AppRoutes() {
   return (
@@ -51,6 +53,8 @@ export default function AppRoutes() {
       {/*Dashboard*/}
       <Route path="/hossfatura/dashboard/">
         <Route path="" element={<DashboardHossFatura />} />
+        <Route path="documentos" element={<DocumentosHossFatura />} />
+        <Route path="despesas" element={<DespesasHossFatura />} />
       </Route>
       
     </Routes>
