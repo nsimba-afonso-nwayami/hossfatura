@@ -88,7 +88,7 @@ export default function Banner() {
               {/* Badge Flutuante Interna */}
               <div className="absolute bottom-8 left-8 z-20 bg-neutral-950/80 backdrop-blur-md border border-zinc-800 p-4 rounded-2xl flex items-center gap-4 shadow-2xl">
                 <div className="w-10 h-10 bg-amber-700 rounded-xl flex items-center justify-center">
-                  <i className="fas fa-shield-check text-white"></i>
+                  <i className="fas fa-shield text-white"></i>
                 </div>
                 <div>
                   <p className="text-[10px] text-zinc-500 uppercase font-black tracking-widest">Segurança</p>
