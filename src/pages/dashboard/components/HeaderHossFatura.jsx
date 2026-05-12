@@ -43,7 +43,7 @@ export default function HeaderHossFatura({
 
         {/* NOTIFICAÇÕES */}
         <Link
-          to="/dashboard/notificacoes"
+          to="/hossfatura/dashboard/notificacoes"
           className={actionBtnStyle}
         >
           <i className="fas fa-bell text-lg"></i>
@@ -67,7 +67,7 @@ export default function HeaderHossFatura({
           </div>
 
           <Link
-            to="/dashboard/configuracoes"
+            to="/hossfatura/dashboard/configuracoes"
             className="
               w-11 h-11
               cursor-pointer
