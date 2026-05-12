@@ -27,6 +27,7 @@ import ResetPassword from "../pages/auth/ResetPassword";
 import DashboardHossFatura from "../pages/dashboard/DashboardHossFatura";
 import DocumentosHossFatura from "../pages/dashboard/DocumentosHossFatura";
 import DespesasHossFatura from "../pages/dashboard/DespesasHossFatura";
+import ProdutosHossFatura from "../pages/dashboard/ProdutosHossFatura";
 
 export default function AppRoutes() {
   return (
