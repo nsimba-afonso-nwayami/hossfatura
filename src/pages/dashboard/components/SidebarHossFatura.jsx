@@ -83,7 +83,7 @@ export default function SidebarHossFatura({ sidebarOpen, setSidebarOpen }) {
           </Link>
 
           <Link
-            to="/dashboard/despesas"
+            to="/hossfatura/dashboard/despesas"
             className={`${linkStyle} ${
               isActive("/hossfatura/dashboard/despesas") ? activeStyle : normalStyle
             }`}
