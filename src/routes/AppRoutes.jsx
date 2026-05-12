@@ -12,6 +12,7 @@ import Funcionalidades from "../pages/site/Funcionalidades";
 import Planos from "../pages/site/Planos";
 import Demonstracao from "../pages/site/Demonstracao";
 import Faq from "../pages/site/Faq";
+import Contatos from "../pages/site/Contatos";
 import NotFound from "../pages/site/NotFound";
 
 //Autenticação
@@ -25,7 +26,8 @@ export default function AppRoutes() {
         <Route path="/funcionalidades" element={<Funcionalidades />} />
         <Route path="/planos" element={<Planos />} />
         <Route path="/demonstracao" element={<Demonstracao />} />
-        <Route path="/perguntas-frequentas" element={<Faq />} />
+        <Route path="/perguntas-frequentes" element={<Faq />} />
+        <Route path="/contatos" element={<Contatos />} />
         <Route path="*" element={<NotFound />} />
       </Route>
 
