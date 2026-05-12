@@ -109,7 +109,7 @@ export default function Header() {
 
               {/* Botão Teste Grátis - Padrão Principal */}
               <Link
-                to="/teste"
+                to="/criar-conta"
                 onClick={() => setMenuOpen(false)}
                 className="group w-full lg:w-auto flex items-center justify-center gap-3 bg-amber-700 hover:bg-amber-600 text-white px-6 py-2.5 rounded-2xl font-bold text-sm transition-all duration-300 shadow-[0_10px_20px_-10px_rgba(180,83,9,0.4)] hover:-translate-y-0.5"
               >
