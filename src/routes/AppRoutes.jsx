@@ -43,7 +43,7 @@ export default function AppRoutes() {
       <Route path="/login" element={<Login />} />
       <Route path="/criar-conta" element={<Register />} />
       <Route path="/recuperar" element={<ForgotPassword />} />
-      <Route path="/reset" element={<ResetPassword />} />
+      <Route path="/reset-password" element={<ResetPassword />} />
 
       {/*Dashboard*/}
       
