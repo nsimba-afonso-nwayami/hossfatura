@@ -58,10 +58,10 @@ export default function Banner() {
 
               {/* Botão Principal */}
               <Link
-                to="/teste"
+                to="/criar-conta"
                 className="group flex items-center justify-center gap-4 bg-amber-700 hover:bg-amber-600 text-white px-8 py-4 rounded-2xl font-bold transition-all duration-300 shadow-[0_15px_30px_-10px_rgba(180,83,9,0.4)] hover:-translate-y-1"
               >
-                <span>Agendar Agora</span>
+                <span>Testar Agora</span>
 
                 <div className="bg-white/20 p-1 rounded-md group-hover:bg-white/30 transition-colors">
                   <i className="fas fa-calendar-check text-[10px]"></i>
