@@ -59,11 +59,17 @@ export default function CtaPlanos() {
           {/* Rodapé do Bloco */}
           <div className="mt-16 flex flex-wrap justify-center gap-x-10 gap-y-4">
             {[
-              { icon: "whatsapp", text: "+244 9XX XXX XXX", color: "text-zinc-500" },
-              { icon: "envelope", text: "comercial@hossidev.com", color: "text-zinc-500" }
+              { icon: "whatsapp", text: "+244 9XX XXX XXX", type: "fab", color: "text-zinc-500" },
+              { icon: "envelope", text: "comercial@hossidev.com", type: "fas", color: "text-zinc-500" }
             ].map((contact, idx) => (
-              <div key={idx} className="flex items-center gap-3 group cursor-pointer">
-                <i className={`fab fa-${contact.icon} ${contact.color} group-hover:text-amber-500 transition-colors`}></i>
+              <div
+                key={idx}
+                className="flex items-center gap-3 group cursor-pointer"
+              >
+                <i
+                  className={`${contact.type} fa-${contact.icon} ${contact.color} group-hover:text-amber-500 transition-colors`}
+                ></i>
+
                 <span className="text-xs font-bold text-zinc-500 group-hover:text-zinc-300 transition-colors tracking-widest uppercase">
                   {contact.text}
                 </span>
