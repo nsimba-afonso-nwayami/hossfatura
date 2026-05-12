@@ -18,6 +18,10 @@ import Privacidade from "../pages/site/Privacidade";
 import NotFound from "../pages/site/NotFound";
 
 //Autenticação
+import Login from "../pages/auth/Login";
+import Register from "../pages/auth/Register";
+import ForgotPassword from "../pages/auth/ForgotPassword";
+import ResetPassword from "../pages/auth/ResetPassword";
 
 export default function AppRoutes() {
   return (
@@ -36,6 +40,12 @@ export default function AppRoutes() {
       </Route>
 
       {/*Rotas de autenticação*/}
+      <Route path="/login" element={<Login />} />
+      <Route path="/criar-conta" element={<Register />} />
+      <Route path="/recuperar" element={<ForgotPassword />} />
+      <Route path="/reset" element={<ResetPassword />} />
+
+      {/*Dashboard*/}
       
     </Routes>
   );
