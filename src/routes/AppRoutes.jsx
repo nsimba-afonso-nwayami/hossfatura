@@ -56,6 +56,7 @@ export default function AppRoutes() {
         <Route path="" element={<DashboardHossFatura />} />
         <Route path="documentos" element={<DocumentosHossFatura />} />
         <Route path="despesas" element={<DespesasHossFatura />} />
+        <Route path="produtos" element={<ProdutosHossFatura />} />
       </Route>
       
     </Routes>
