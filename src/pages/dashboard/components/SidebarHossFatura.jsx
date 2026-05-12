@@ -97,7 +97,7 @@ export default function SidebarHossFatura({ sidebarOpen, setSidebarOpen }) {
           <Link
             to="/hossfatura/dashboard/produtos"
             className={`${linkStyle} ${
-              isActive("/dashboard/produtos") ? activeStyle : normalStyle
+              isActive("/hossfatura/dashboard/produtos") ? activeStyle : normalStyle
             }`}
           >
             <i className={`fas fa-box-open ${
@@ -121,7 +121,7 @@ export default function SidebarHossFatura({ sidebarOpen, setSidebarOpen }) {
           <Link
             to="/hossfatura/dashboard/fornecedores"
             className={`${linkStyle} ${
-              isActive("/dashboard/fornecedores") ? activeStyle : normalStyle
+              isActive("/hossfatura/dashboard/fornecedores") ? activeStyle : normalStyle
             }`}
           >
             <i className={`fas fa-truck-field ${
