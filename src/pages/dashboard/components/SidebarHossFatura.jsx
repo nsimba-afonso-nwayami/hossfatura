@@ -139,7 +139,7 @@ export default function SidebarHossFatura({ sidebarOpen, setSidebarOpen }) {
             to="/hossfatura/dashboard/empresa"
             className="flex items-center gap-3 px-4 py-3 rounded-xl text-neutral-700 hover:text-amber-700 hover:bg-amber-50 transition-all font-black text-sm"
           >
-            <i className="fas fa-building text-amber-700"></i>
+            <i className="fas fa-cog text-amber-700"></i>
             Empresa
           </Link>
 
