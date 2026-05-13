@@ -28,6 +28,10 @@ import DashboardHossFatura from "../pages/dashboard/DashboardHossFatura";
 import DocumentosHossFatura from "../pages/dashboard/DocumentosHossFatura";
 import DespesasHossFatura from "../pages/dashboard/DespesasHossFatura";
 import ProdutosHossFatura from "../pages/dashboard/ProdutosHossFatura";
+import ClientesHossFatura from "../pages/dashboard/ClientesHossFatura";
+import FornecedoresHossFatura from "../pages/dashboard/FornecedoresHossFatura";
+import EmpresaHossFatura from "../pages/dashboard/EmpresaHossFatura";
+import NotFoundHossFatura from "../pages/dashboard/NotFoundHossFatura";
 
 export default function AppRoutes() {
   return (
@@ -57,6 +61,10 @@ export default function AppRoutes() {
         <Route path="documentos" element={<DocumentosHossFatura />} />
         <Route path="despesas" element={<DespesasHossFatura />} />
         <Route path="produtos" element={<ProdutosHossFatura />} />
+        <Route path="clientes" element={<ClientesHossFatura />} />
+        <Route path="fornecedores" element={<FornecedoresHossFatura />} />
+        <Route path="empresa" element={<EmpresaHossFatura />} />
+        <Route path="*" element={<NotFoundHossFatura />} />
       </Route>
       
     </Routes>
