@@ -124,6 +124,38 @@ export default function ProdutosHossFatura() {
             </div>
           </div>
 
+          {/* FILTROS */}
+          <div className="bg-white border border-amber-100 rounded-4xl p-6 shadow-sm">
+            <div className="grid md:grid-cols-4 gap-4">
+
+              <input
+                type="text"
+                placeholder="Pesquisar produto..."
+                className="h-14 px-5 rounded-2xl border border-neutral-200 bg-white outline-none focus:border-amber-700 transition-all"
+              />
+
+              <select className="h-14 px-5 rounded-2xl border border-neutral-200 bg-white outline-none focus:border-amber-700 transition-all cursor-pointer">
+                <option>Tipo de documento</option>
+                <option>Fatura</option>
+                <option>Recibo</option>
+                <option>Proforma</option>
+                <option>Nota de Crédito</option>
+              </select>
+
+              <select className="h-14 px-5 rounded-2xl border border-neutral-200 bg-white outline-none focus:border-amber-700 transition-all cursor-pointer">
+                <option>Status</option>
+                <option>Pago</option>
+                <option>Pendente</option>
+                <option>Emitido</option>
+              </select>
+
+              <button className="h-14 rounded-2xl bg-neutral-900 hover:bg-amber-700 text-white font-bold transition-all duration-300 cursor-pointer">
+                Filtrar
+              </button>
+
+            </div>
+          </div>
+
           {/* LISTA */}
           <div className="bg-white border border-amber-100 rounded-4xl p-8 shadow-sm">
 
