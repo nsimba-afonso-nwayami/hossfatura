@@ -8,7 +8,7 @@ export default function EmpresaHossFatura() {
       title: "Subscrição",
       desc: "Gerencie o seu plano, pagamentos e renovação do serviço.",
       icon: "fa-solid fa-crown",
-      link: "/hossfatura/dashboard/empresa/subscricao",
+      link: "/hossfatura/dashboard/empresa/subscricao/escolher-pacote",
     },
     {
       title: "Configurações Gerais",
