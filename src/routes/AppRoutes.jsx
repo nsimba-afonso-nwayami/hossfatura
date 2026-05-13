@@ -32,6 +32,8 @@ import ClientesHossFatura from "../pages/dashboard/ClientesHossFatura";
 import FornecedoresHossFatura from "../pages/dashboard/FornecedoresHossFatura";
 import NotificacoesHossFatura from "../pages/dashboard/NotificacoesHossFatura";
 import EmpresaHossFatura from "../pages/dashboard/EmpresaHossFatura";
+import SubscricaoHossFatura from "../pages/dashboard/SubscricaoHossFatura";
+import ConfiguracoesHossFatura from "../pages/dashboard/ConfiguracoesHossFatura";
 import NotFoundHossFatura from "../pages/dashboard/NotFoundHossFatura";
 
 export default function AppRoutes() {
@@ -66,6 +68,8 @@ export default function AppRoutes() {
         <Route path="fornecedores" element={<FornecedoresHossFatura />} />
         <Route path="notificacoes" element={<NotificacoesHossFatura />} />
         <Route path="empresa" element={<EmpresaHossFatura />} />
+        <Route path="empresa/subscricao/escolher-pacote/" element={<SubscricaoHossFatura />} />
+        <Route path="empresa/configuracoes/" element={<ConfiguracoesHossFatura />} />
         <Route path="*" element={<NotFoundHossFatura />} />
       </Route>
       
