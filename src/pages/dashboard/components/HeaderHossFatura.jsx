@@ -67,7 +67,7 @@ export default function HeaderHossFatura({
           </div>
 
           <Link
-            to="/hossfatura/dashboard/configuracoes"
+            to="/hossfatura/dashboard/perfil"
             className="
               w-11 h-11
               cursor-pointer
