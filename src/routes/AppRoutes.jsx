@@ -31,9 +31,13 @@ import ProdutosHossFatura from "../pages/dashboard/ProdutosHossFatura";
 import ClientesHossFatura from "../pages/dashboard/ClientesHossFatura";
 import FornecedoresHossFatura from "../pages/dashboard/FornecedoresHossFatura";
 import NotificacoesHossFatura from "../pages/dashboard/NotificacoesHossFatura";
+import PerfilHossFatura from "../pages/dashboard/PerfilHossFatura";
 import EmpresaHossFatura from "../pages/dashboard/EmpresaHossFatura";
 import SubscricaoHossFatura from "../pages/dashboard/SubscricaoHossFatura";
 import ConfiguracoesHossFatura from "../pages/dashboard/ConfiguracoesHossFatura";
+import RelatoriosHossFatura from "../pages/dashboard/RelatoriosHossFatura";
+import UtilizadoresHossFatura from "../pages/dashboard/UtilizadoresHossFatura";
+import ContasBancariasHossFatura from "../pages/dashboard/ContasBancariasHossFatura";
 import NotFoundHossFatura from "../pages/dashboard/NotFoundHossFatura";
 
 export default function AppRoutes() {
@@ -67,9 +71,13 @@ export default function AppRoutes() {
         <Route path="clientes" element={<ClientesHossFatura />} />
         <Route path="fornecedores" element={<FornecedoresHossFatura />} />
         <Route path="notificacoes" element={<NotificacoesHossFatura />} />
+        <Route path="perfil" element={<PerfilHossFatura />} />
         <Route path="empresa" element={<EmpresaHossFatura />} />
         <Route path="empresa/subscricao/escolher-pacote/" element={<SubscricaoHossFatura />} />
         <Route path="empresa/configuracoes/" element={<ConfiguracoesHossFatura />} />
+        <Route path="empresa/relatorios/" element={<RelatoriosHossFatura />} />
+        <Route path="empresa/utilizadores/" element={<UtilizadoresHossFatura />} />
+        <Route path="empresa/contas-bancarias/" element={<ContasBancariasHossFatura />} />
         <Route path="*" element={<NotFoundHossFatura />} />
       </Route>
       
