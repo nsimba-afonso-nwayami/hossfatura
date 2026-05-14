@@ -6,7 +6,7 @@ export default function UtilizadoresHossFatura() {
     <>
       <title>Utilizadores | HossFatura</title>
 
-      <HossFaturaLayout title="Utilizadoes">
+      <HossFaturaLayout title="Utilizadores">
         <section className="space-x-6">
 
         </section>
